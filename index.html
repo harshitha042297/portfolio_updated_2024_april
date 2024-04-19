@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/me.png" alt="Richard hanrick" width="70">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Harshitha Reddy</h1>
+
+          <p class="title">Full Stack Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">harshithareddy2297@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 402-278-9802</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+             <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div> 
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>San Fransisco, California, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experience</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A Computer Science graduate student who has cultivated a robust skill set with over 3 years of industry experience at Salesforce, complemented by various academic and personal full-stack projects. 
+            </p>
+            <p>
+            Proficient in HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB; Salesforce specific technologies encompassing Apex, Asynchronous Apex, Visualforce, Lightning Experience, SOQL, Integration, Automation, and REST API’s. 
+            </p>
+            <p>
+            I aim to leverage this diverse skill set within roles that promote growth and allow me to translate my knowledge in tech-driven environments. Committed to continuous learning and capable of adapting to evolving tech landscapes. 
+            </p>
+            <p>
+            Seeking Front-End developer, Full-Stack Developer, Software Engineer, Salesforce Developer roles.
+          </p>
+
+        </section>
+
+
+        <!-- 
+          - service
+        -->
+
+        <!-- <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+ 
+
+        <!--
+          - testimonials
+        -->
+
+        <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Skills</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/prog.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Languages</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Python, Java, C#
+                   </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/web.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Web Technologies/Frameworks</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    HTML, CSS, JavaScript, React.js, Node.js, Express, AngularJS, .NET
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/db.jpg" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Database Management:</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    SQL, MySQL, PostgreSQL, MongoDB(NoSQL)
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/sf.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Salesforce </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Apex, Asynchronous Apex, Visualforce and Lightning Experience, Lightning Web
+Components(LWC), SOQL, SOSL, Integration, Automation(Flows, Process Builder, Approval Process,
+Workflows, Workflow Rules, Validation Rules, Triggers), REST, SOAP API’s, Single Sign-On, JWT, OAuth
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/misc.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Miscellaneous</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Microsoft Suite, Visual Studio, Jira, Git/Github(version control), CI/CD, Docker, Kubernetes, AWS
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <!
+          - testimonials modal
+        -->
+
+        <!-- <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+            
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>  -->
+
+
+        <!--
+          - clients
+        -->
+
+       <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article> 
+
+
+      <!--
+        - #Education/Experience
+      -->
+
+      <article class="resume" data-page="education">
+
+        <header>
+          <h2 class="h4 article-title">Education</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Indiana University Bloomington - Master of Science in Computer Science</h4>
+
+              <span>August 2022 – May 2024</span>
+              <p class="timeline-text">
+                GPA: 3.8/4.0
+              </p>
+              <p class="timeline-text">
+                Course Work: Applied Algorithms, Software Engineering, Applied Database Technologies
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jawaharlal Nehru Technological University - Bachelor of Technology in Information Technology</h4>
+              
+              <span>August 2015 - April 2019</span>
+              <p class="timeline-text">
+                GPA: 3.8/4.0
+              </p>
+
+              <p class="timeline-text">
+                Course Work: Data Structures, Design and Analysis of Algorithms, Web Technologies, Operating Systems, Database Management Systems, Object Oriented Programming Language
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+        <!-- test -->
+        <article class="resume" data-page="experience">
+
+          <header>
+            <h2 class="h4 article-title">Experience</h2>
+          </header>
+<!--   
+          <section class="timeline">
+  
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Education</h3>
+            </div>
+  
+            <ol class="timeline-list">
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Indiana University Bloomington - Master of Science in Computer Science</h4>
+  
+                <span>August 2022 – May 2024</span>
+                <p class="timeline-text">
+                  GPA: 3.8/4.0
+                </p>
+                <p class="timeline-text">
+                  Course Work: Applied Algorithms, Software Engineering, Applied Database Technologies
+                </p>
+  
+              </li>
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Jawaharlal Nehru Technological University - Bachelor of Technology in Information Technology</h4>
+                
+                <span>August 2015 - April 2019</span>
+                <p class="timeline-text">
+                  GPA: 3.8/4.0
+                </p>
+  
+                <p class="timeline-text">
+                  Course Work: Data Structures, Design and Analysis of Algorithms, Web Technologies, Operating Systems, Database Management Systems, Object Oriented Programming Language
+                </p>
+  
+              </li>
+  
+            </ol>
+  
+          </section> -->
+       
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">INDIANA UNIVERSITY - Research Assistant</h4>
+
+              <span>January 2024 - Present</span>
+              <br>
+              <ul class="timeline-text"> 
+              • Developing APIs for the US Bureau of Transportation Statistics to provide seamless access to Freight Analysis Framework (FAF) data, facilitating retrieval of annual commodity flow information between origin and destination zones.
+              </ul>
+              <br>
+              <ul class="timeline-text">
+              • Integrating Large Language Models (LLM) into Cybershuttle to automate the management of complex research processes and seamlessly integrate distributed resources, enhancing the scientific user environment.
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">INDIANA UNIVERSITY - Front-End Developer (Part-time)</h4>
+
+              <span>October 2023 - December 2023</span>
+              <br>
+              <ul class="timeline-text">
+              • Developing a user-friendly website using front-end Javascript library - React.js to present philanthropic, charitable giving data from Form 990, improving data accessibility and engagement for audience such as foundations, grantees, researchers.
+              </ul>
+              <br>
+              <ul class="timeline-text">
+              • Collaborating with the data engineering team to gain insights into the underlying data and to come up with strategies
+for effective data presentation to address potential audience inquiries.
+</ul>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SALESFORCE - Developer Success Engineer</h4>
+
+              <span>June 2019 - July 2022</span>
+              <br>
+              <ul class="timeline-text">
+              • Engineered the integration of Salesforce with third-party applications and performed efficient testing, leveraging Apex Web services, including REST and SOAP APIs, to yield a 30% boost in data synchronization efficiency.
+              </ul>
+              <br>
+              <ul class="timeline-text">
+              • Collaborated with clients to tailor Salesforce applications using the Apex language(backend) and Visualforce UI frame- work(frontend), adopting agile methodology and culminating in a notable 20% enhancement in user satisfaction.
+              </ul>
+              <br>
+              <ul class="timeline-text">
+              • Piloted the development of 10+ customized applications by employing automation tools such as flows and process builders, streamlining operational processes and delivering a substantial 25% reduction in manual data entry and error rates.
+              </ul>
+              <br>
+              <ul class="timeline-text">
+              • Executed deployments through Change sets, Workbench, consistently achieving a 100% deployment success rate.
+              </ul>
+              <br>
+              <ul class="timeline-text">
+              • Oversaw administrative tasks, encompassing data management and user management while sustaining a 98% data
+accuracy rate for a database exceeding 50,000 records.
+                </ul>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul> -->
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div> 
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/harshitha042297">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/memories2.png" alt="dsm." loading="lazy" width="50px" height="50px">
+                </figure>
+
+                <h3 class="project-title">ECHOES FROM PAST</h3>
+
+                <p class="project-category">A web portal designed to assist users in preserving their memories by uploading pictures, giving the title, place and more. Users will have the capability to search for and access their stored memories.</p>
+                <p>Technologies: React.js, Node.js, Express, MongoDB</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/harshitha042297/Crop-Data-Analysis">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/crop.png" alt="metaspark" loading="lazy" width="50" height="50">
+                </figure>
+
+                <h3 class="project-title">CROP DATA ANALYSIS</h3>
+
+                <p class="project-category">Web-based application that allows farmers to input their crop information and perform analysis to determine the optimal crop to plant, cutting down the decision-making time by 25% .</p>
+                <p>Technologies: React.js, Flask, PostgreSQL</p>
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="https://github.com/harshitha042297/Event-Management-System">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/event.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">EVENT MANAGEMENT SYSTEM</h3>
+
+                <p class="project-category">An event management portal where organizers create and host events, while attendees can register for events across different locations, leading to a 30% reduction in event planning time and increased participation. </p>
+                <p>Technologies: React.js, HTML, CSS, JavaScript, Bootstrap, C#, MySQL</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/harshitha042297/Data-Mining">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/airbnb.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AIRBNB RECOMMENDATION SYSTEM</h3>
+
+                <p class="project-category">Assisting a user to find the best rooms according to their chosen room types based on the price for a particular neighbourhood location.</p>
+                <p>Technologies: Python</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/harshitha042297">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/movie.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MOVIE SEARCH ENGINE</h3>
+
+                <p class="project-category">Web application built using React.js that allows the user to search movies from the database through API call.</p>
+                <p>Technologies: React.js</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/tech.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">TECHINCAL EDUCATION MANAGER</h3>
+
+                <p class="project-category">A training candidate base management portal which facilitates the management to track and maintain the training of the candidate.</p>
+                <p>Technologies: Java, HTML, CSS, JDBC, JSP</p>
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #SKILLS
+      -->
+
+        <article class="blog" data-page="skills">
+
+          <header>
+            <h2 class="h2 article-title">Skills</h2>
+          </header>
+  
+        <section class="testimonials">
+
+          <!-- <h3 class="h3 testimonials-title">Skills</h3> -->
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/prog.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Languages</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Python, Java, C#
+                   </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/web.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Web Technologies/Frameworks</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    HTML, CSS, JavaScript, React.js, Node.js, Express, AngularJS, .NET
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/db.jpg" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Database Management:</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    SQL, MySQL, PostgreSQL, MongoDB(NoSQL)
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/sf.jpeg" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Salesforce </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Apex, Asynchronous Apex, Visualforce and Lightning Experience, Lightning Web
+Components(LWC), SOQL, SOSL, Integration, Automation(Flows, Process Builder, Approval Process,
+Workflows, Workflow Rules, Validation Rules, Triggers), REST, SOAP API’s, Single Sign-On, JWT, OAuth
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/misc.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Miscellaneous</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Microsoft Suite, Visual Studio, Jira, Git/Github(version control), CI/CD, Docker, Kubernetes, AWS
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> 
+
+
+        
+          <!-- - testimonials modal -->
+        
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+            
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      
+
+      <!-- <article class="blog" data-page="skills">
+
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
+
+        
+        <section class="service">
+
+
+          <ul class="service-list">
+            
+            <li class="service-item">
+
+               <div class="service-icon-box">
+                <img src="./assets/images/prog.png" alt="camera icon" width="40">
+              </div> 
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Languages</h4>
+
+                <p class="service-item-text">
+                  Python, Java, C#
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/web.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Technologies/Frameworks</h4>
+
+                <p class="service-item-text">
+                  HTML, CSS, JavaScript, React.js, Node.js, Express, AngularJS, .NET
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/db.jpg" alt="camera icon" width="60" height="60">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Management</h4>
+
+                <p class="service-item-text">
+                  SQL, MySQL, PostgreSQL, MongoDB(NoSQL)
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/sf.png" alt="camera icon" width="40" height="30">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Salesforce specific</h4>
+
+                <p class="service-item-text">
+                  Apex, Asynchronous Apex, Visualforce and Lightning Experience, Lightning Web
+                Components(LWC), SOQL, SOSL, Integration, Automation(Flows, Process Builder, Approval Process,
+                Workflows, Workflow Rules, Validation Rules, Triggers), REST, SOAP API’s, Single Sign-On, JWT, OAuth
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/misc.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Miscelleneous</h4>
+
+                <p class="service-item-text">
+                  Microsoft Suite, Visual Studio, Jira, Git/Github(version control), CI/CD, Docker, Kubernetes, AWS
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+       
+     
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Skills</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/react.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/node.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/sf.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/js.png" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/sql.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/html.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/git.png" alt="client logo">
+              
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/aws.jpeg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/java.jpeg" alt="client logo">
+              </a>
+            </li>
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
